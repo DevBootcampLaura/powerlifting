@@ -67,3 +67,15 @@ table {
   border-style: dashed;
   font-size: 1em;
 }
+
+@media screen and (max-width: 500px) {
+  p {
+    max-width: 100%;
+  }
+
+  #intro {
+  padding: auto;
+  margin-right: auto;
+  margin-left: auto;
+  }
+}
