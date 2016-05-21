@@ -4,12 +4,23 @@ body {
 }
 
 #barbell {
-  padding: 2em 2em 2em 7em;
+  padding: 2em 2em 2em 8em;
 }
 
 #intro {
+  padding: 0em 0em 0em 2em;
   margin-right: 30%;
+  margin-left: 20%;
+}
+
+#lifts {
+  margin-right: 20%;
   margin-left: 30%;
+  margin-top: 3%;
+}
+
+#main-text {
+  margin-left: 18%;
 }
 
 footer {
@@ -31,20 +42,28 @@ a:hover {
 }
 
 a:visited {
-  color: hotpink;
+  color: black;
   text-decoration: none
 }
 
-nav {
+.links {
   text-align: center;
 }
 
 p {
-  max-width: auto;
+  max-width: 50%;
   background-image: url(pink_rice.png);
   padding: 1em 1em 0.5em 2em;
 }
 
 ul {
   font-family: sans-serif;
+}
+
+table {
+  padding: 3em 3em 3em 3em;
+  margin: 2em 2em;
+  text-align: center;
+  border-style: dashed;
+  font-size: 1em;
 }
