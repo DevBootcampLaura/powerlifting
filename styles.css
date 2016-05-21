@@ -1,3 +1,45 @@
 body {
-  background-color: red;
+  background-color: white;
+  font-family: monospace;
+}
+
+#barbell {
+  max-width: 50%;
+  padding: 2em 2em 2em 2em;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+a:link {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:hover {
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: hotpink;
+  text-decoration: none
+}
+
+nav {
+  text-align: center;
+}
+
+p {
+  max-width: 40%;
+  background-image: http://www.publicdomainpictures.net/pictures/10000/velka/1-1243352733iw2m.jpg;
+  padding: 1em 1em 0.5em 2em;
+}
+
+ul {
+  font-family: sans-serif;
 }
